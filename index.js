@@ -4,7 +4,7 @@ const app= express();
 const members=[
   {
     id:1,
-    name: 'John Doe',
+    name: 'Paja baksis',
     email: 'johndoe@gmail.com',
     status: 'active'
   },
