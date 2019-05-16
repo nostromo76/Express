@@ -1,7 +1,7 @@
 const express = require('express');
 const uuid = require('uuid');
 const router = express.Router();
-const members = require('../../Members');
+const members = require('../../Members'); //folder
 
 // Gets All Members
 router.get('/', (req, res) => res.json(members));
